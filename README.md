@@ -99,3 +99,21 @@ scriptgen -i java -s sample.java
 ```
 
 In each of these examples, the `-i` option is used to specify the interpreter and the `-s` option is used to specify the script path.
+
+## Installation
+
+Here are a few methods for setting up this tool on your computer.
+
+### Manual installation
+
+Compiled binary versions of _ScriptGen_ are uploaded to GitHub when a release is made. You can install _ScriptGen_ manually by downloading a release, extracting it, and copying the binary to a directory in your `$PATH`. 
+
+On macOS or Linux, this could be `/usr/local/bin`, while on Windows, you could copy the binary to `C:\Windows\system32`.
+
+### Using Cargo
+
+If you already have a Rust environment set up, you can use the `cargo install` command:
+```
+cargo install scriptgen
+```
+Cargo will build the _ScriptGen_ binary and place it in `$HOME/.cargo` on macOS or Linux, or `%USERPROFILE%\.cargo\bin` on Windows.
