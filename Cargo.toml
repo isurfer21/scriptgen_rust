@@ -1,0 +1,17 @@
+[package]
+name = "scriptgen"
+version = "1.0.0"
+edition = "2021"
+authors = ["Abhishek Kumar <akbittu@gmail.com>"]
+license = "MIT"
+description = "A script generator tool that simplifies the process of running scripts in any language."
+readme = "README.md"
+homepage = "https://github.com/isurfer21/scriptgen_rust"
+repository = "https://github.com/isurfer21/scriptgen_rust.git"
+keywords = ["cli", "script", "generator", "tool"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0"
